@@ -1,0 +1,52 @@
+{	
+	"Register"	:
+			[
+				{
+					"Action"	:	"Register",
+					"Controller"	:	"AccountController",
+					"Method"	:	"RegisterAction",
+					"TokenRequired"	:	0,
+					"Maintenance"	:	0
+				}
+			],
+	"Login"	:
+			[
+				{
+					"Action"	:	"Login",
+					"Controller"	:	"AccountController",
+					"Method"	:	"LoginAction",
+					"TokenRequired"	:	2,
+					"Maintenance"	:	0
+				}
+			],
+	"AuthenticateToken"	:
+			[
+				{
+					"Action"	:	"AuthenticateToken",
+					"Controller"	:	"AuthenticationController",
+					"Method"	:	"AuthenticateTokenAction",
+					"TokenRequired"	:	1,
+					"Maintenance"	:	0
+				}
+			],
+	"AuthenticateMentorKey"	:
+			[
+				{
+					"Action"	:	"AuthenticateMentorKey",
+					"Controller"	:	"AuthenticationController",
+					"Method"	:	"AuthenticateMentorKeyAction",
+					"TokenRequired"	:	0,
+					"Maintenance"	:	0
+				}
+			],
+	"FetchPosts"	:
+			[
+				{
+					"Action"	:	"FetchPosts",
+					"Controller"	:	"PostController",
+					"Method"	:	"FetchPostsAction",
+					"TokenRequired"	:	1,
+					"Maintenance"	:	0
+				}
+			]
+}
