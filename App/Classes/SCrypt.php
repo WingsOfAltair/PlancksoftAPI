@@ -6,13 +6,14 @@
  * As with all cryptographic code; it is recommended that you use a tried and
  * tested library which uses this library; rather than rolling your own.
  *
- * PHP version 5
+ * PHP version 8.3
  *
  * @category Security
  * @package  Scrypt
  * @author   Dominic Black <thephenix@gmail.com>
  * @license  http://www.opensource.org/licenses/BSD-2-Clause BSD 2-Clause License
  * @link     http://github.com/DomBlack/php-scrypt
+ * @refactor WingsOfAltair https://wingsofaltair.github.io/Plancksoft/
  */
 
 /**
@@ -27,6 +28,7 @@
  * @author   Dominic Black <thephenix@gmail.com>
  * @license  http://www.opensource.org/licenses/BSD-2-Clause BSD 2-Clause License
  * @link     http://github.com/DomBlack/php-scrypt
+ * @refactor WingsOfAltair https://wingsofaltair.github.io/Plancksoft/
  */
 abstract class Password
 {
